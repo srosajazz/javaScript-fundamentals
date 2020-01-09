@@ -25,3 +25,11 @@ let selectedColors = ["red", "green"];
 selectedColors[2] = "yellow";
 selectedColors[2] = 1;
 console.log(selectedColors.length);
+
+//function()
+
+function greet(name, lastName) {
+  console.log("Hello, " + name + " " + lastName);
+}
+
+greet("Sergio", "Rosa");
