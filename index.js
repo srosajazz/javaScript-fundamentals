@@ -13,4 +13,8 @@ let person = {
 //Dot Notation
 person.name = "Mike";
 
+//Bracket Notation
+let selection = "name";
+person[selection] = "Mary";
+
 console.log(person.name);
